@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
-import EarthquakeList from './EarthquakeList';
 import EarthquakeInfo from './EarthquakeInfo';
+import EarthquakeList from './EarthquakeList';
 
 class App extends Component {
   render() {
@@ -12,8 +12,8 @@ class App extends Component {
           Earthquakes!
           </div>
         </div>
-        <EarthquakeList />
         <EarthquakeInfo />
+        <EarthquakeList />
       </div>
     );
   }
