@@ -4,6 +4,6 @@ import earthquakes from '../data/earthquakes.js';
 
 export default class EarthquakeList extends Component {
   render() {
-    
+    return <div>Test</div>
   }
 }
